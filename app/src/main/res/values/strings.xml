@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">STOPP</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_breath">breath</string>
+    <string name="title_activity_observe">observe</string>
+    <string name="title_activity_pull_back">pull_back</string>
+</resources>

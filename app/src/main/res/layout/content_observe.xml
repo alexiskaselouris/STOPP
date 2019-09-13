@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".observe"
+    tools:showIn="@layout/activity_observe">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reaction2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write here."
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write here."
+        tools:layout_editor_absoluteX="-47dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="What are you reacting to?"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/focus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write here."
+        tools:layout_editor_absoluteX="-47dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="What thoughts are going through your mind right now?"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="What sensations do you notice in your body?"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/thoughts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write here."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Where is your focus of attention?"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok great new let's move on"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="In the main page you will find a menu to access what you have written for future reference."
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="477dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
